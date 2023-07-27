@@ -1,0 +1,42 @@
+http://dyndns.org.dyndns.fr/dyndns.html
+https://www.noip.com/remote-access
+https://support.microsoft.com/en-us/help/323972/how-to-set-up-your-first-iis-web-site
+https://www.youtube.com/watch?v=IwbKquNBNgQ
+https://www.youtube.com/watch?v=rmVtxLKmkDU
+https://www.youtube.com/watch?v=ovXxvYA5VMA
+
+CREATE LOGIN [thismyname] WITH PASSWORD = 'thisismypassword'
+
+create user [iamauser] for login [thismyname]
+GO
+Grant select on [Users] to [iamauser]
+Grant insert on [Users] to [iamauser]
+exec sp_addrolemember 'db_owner', 'iamauser'
+
+Open control panel
+Click on” program” link (not uninstall programs)
+Click” turn windows features on/off” link
+locate” Internet Information services IIS” in the pop up window and expand its node
+Expand the” World Wide Web Service” node
+Expand “Application Development Features” node
+check the check box of”ASP.NET”
+Then click ok button
+
+HTTP Error 401.3 - Unauthorized
+IIS 7 also creates "IUSR" as default user to access files via IIS. So make user IUSR has read access to files/folders.
+How to check if IUSR has read Access? Right Click -> Folder -> Properties -> Security Tab See if IUSR is in Group or user names list, If No.
+Click Edit -> Add -> Advanced -> Find Now -> Select IUSR and click OK four times
+Click Anonymous Authentication, then click Edit... under Actions
+
+cmd dos as admin
+dism /online /enable-feature /featurename:netfx3
+Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-StaticContent;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-ApplicationDevelopment;IIS-ASPNET;IIS-NetFxExtensibility;IIS-ISAPIExtensions;IIS-ISAPIFilter;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-LoggingLibraries;IIS-RequestMonitor;IIS-Security;IIS-RequestFiltering;IIS-HttpCompressionStatic;IIS-WebServerManagementTools;IIS-ManagementConsole;WAS-WindowsActivationService;WAS-ProcessModel;WAS-NetFxEnvironment;WAS-ConfigurationAPI
+
+https://dotnetcoretutorials.com/2019/12/23/hosting-an-asp-net-core-web-application-in-iis/
+
+
+
+
+
+
+

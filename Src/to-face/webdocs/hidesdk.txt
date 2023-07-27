@@ -1,0 +1,6 @@
+<script type="text/javascript" src="Src/myjs.js"></script> 
+<style type="text/css" src="Src/mycss.css"></style>
+
+<environment names="Development">
+ <link rel="stylesheet" href="Src/mycss.css" />
+    </environment>

@@ -1,0 +1,15 @@
+Configurer votre base de données MS SQL
+Consultez ci-dessous les informations relatives à votre base de données MS SQL.
+Vous pourrez modifier le mot de passe ultérieurement.
+Nom de la base de données :
+db831557172
+Nom d'hôte :
+db831557172.hosting-data.io
+Nom d'utilisateur :
+dbo831557172
+Description :
+to-face-db
+Etat :
+configuration initiée 
+
+Ouvrir base de données et dans Outils -> Analyseur de requêtes

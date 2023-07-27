@@ -1,0 +1,27 @@
+<script>
+$(document).ready(function() {
+       $.get("https://www.youtube.com/user/BUROS1ST", function(data){
+            $("#content").html(data);
+       });
+ });
+</script>
+<div id="content"></div>
+
+<script>
+$(document).ready(function() {
+       $.get("https://www.youtube.com/channel/UCRXcryyD7dzNQzd0Zkbj3ug", function(data){
+            $("#content").html(data);
+       });
+ });
+</script>
+<div id="content"></div>
+
+var c = b.match(/<span>(.*?)<\/span>/)[1];
+
+let str="<div class=\"listing-details\" style=\"outline: 1px solid blue;\"><meta itemprop=\"startDate\" content=\"2016-04-11T18:30:00.000Z\"><span class=\"keypoint\" title=\"old\" style=\"outline: 1px solid blue;\"><span>2 - 3 years old</span></span><span class=\"keypoint\" title=\"Bathrooms\" style=\"outline: 1px solid blue;\"><span>1 Bathrooms</span></span><span class=\"keypoint\" title=\"floor\" style=\"outline: 1px solid blue;\"><span>1<sup>st</sup>floor</span></span></div>";
+let myDiv=document.createElement('div');
+myDiv.innerHTML=str;
+let spans=myDiv.querySelectorAll('.keypoint>span');
+let arr=[];
+spans.forEach(span=>{arr.push(span.innerText)});
+console.log(arr);

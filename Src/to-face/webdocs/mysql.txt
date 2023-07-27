@@ -1,0 +1,18 @@
+Base de données
+dbs508563
+Description
+to-face-db
+
+Nom d'hôte
+db5000529786.hosting-data.io
+Port
+3306
+Nom d'utilisateur
+dbu643071
+Type et version
+MySQL 5.7
+Stockage
+
+0 / 1000 MB utilisé(s)
+Mot de passe
+*******

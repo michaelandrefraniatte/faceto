@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="I'm presenting my go-face-so web application.">
+    <meta name="keywords" content="player, gallery, youtube, presentation, go-face-so">
+    <meta name="author" content="MICHAEL ANDRE FRANIATTE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <meta name="google-site-verification" content="7cncMfoTo9D6fhKexNpS1eSgDPB9dqBjn4KojNDuHR0" />
+
+    <title>go-face-so presentation</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="custom/presentation.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- container -->
+    <div class="title">
+        <center>
+            <h1><b><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S63KZ9HQBTMJE&source=url"><p class="rainbow-text">go-face-so</p></a></b></h1>
+            <p>by Michael Franiatte</p>
+        </center>
+    </div>
+
+    <!-- container -->
+    <div class="intro">
+        <center>
+            <span class="text-rolling">• go-face-so is a gallery for commenting youtube videos adding a video to query annonymously and without restriction. </span>
+            <span class="text-rollingbis">• go-face-so is a gallery for commenting youtube videos adding a video to query annonymously and without restriction. </span>
+        </center>
+    </div>
+
+    <!-- container -->
+    <div class="images">
+        <div class="middle">
+            <div class="big-img">
+                <img id="img-01" alt="go-face-so" src="img/go-face-so-big.png" />
+            </div>
+            <div class="small-img">
+                <div><img id="img-02" alt="go-face-so" src="img/go-face-so-small-2.png" /></div>
+                <div><img id="img-03" alt="go-face-so" src="img/go-face-so-small-1.png" /></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container -->
+    <div class="explications">
+        <center>
+            <div class="center">
+                <p>• Add a video from the top.</p>
+                <p>• Add message under video.</p>
+                <p>• See other people message.</p>
+            </div>
+        </center>
+    </div>
+
+    <!-- The Modals -->
+    <div id="myModal01" class="modal01">
+        <span id="close01">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption01"></div>
+    </div>
+    <div id="myModal02" class="modal02">
+        <span id="close02">&times;</span>
+        <img class="modal-content" id="img02">
+        <div id="caption02"></div>
+    </div>
+    <div id="myModal03" class="modal03">
+        <span id="close03">&times;</span>
+        <img class="modal-content" id="img03">
+        <div id="caption03"></div>
+    </div>
+
+    <script src="custom/presentation.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+        apiKey: "AIzaSyC_sJtwpA2zjIhjeSqmG2tjRs-r9gx4P48",
+        authDomain: "michael-franiatte.firebaseapp.com",
+        projectId: "michael-franiatte",
+        storageBucket: "michael-franiatte.appspot.com",
+        messagingSenderId: "790027725624",
+        appId: "1:790027725624:web:0673edee6e864c9f662fcd",
+        measurementId: "G-R8BQL6ZH9E"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+nom de la base de données WebApplication120200515192545_db
+nom de la base de données WebApplication1_db
+nom du serveur webapplication120200515192545dbserver
+serveur webapplication120200515192545.scm.azurewebsites.net:443
+nom utilisateur $WebApplication120200515192545
+url https://from-mars.azurewebsites.net
+url https://from-mars.net
+
+creation de la ressource, le serveur et la base de données, en même temps que la publication depuis générer après debug du release
+
+ajout de la base de données dans l'exploreur d'objet SQL
+
+System.Data.IDbConnection connection = new Microsoft.Data.SqlClient.SqlConnection(@"Server=(localdb)\MSSQLLocalDB;Database=webapplication1db;");
+
+avant publication edition de l'url du from-mars - webdeploy
+
+https://from-mars.azurewebsites.net/
+
+azure.microsoft.com/ portail
+
+mettre la base de données en tarification basic

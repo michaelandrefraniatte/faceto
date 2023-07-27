@@ -1,0 +1,9 @@
+SELECT * FROM MyTable
+WHERE CHARINDEX('word1', Column1) > 0
+  AND CHARINDEX('word2', Column1) > 0
+  AND CHARINDEX('word3', Column1) > 0
+
+SELECT * FROM table WHERE CONTAINS(Column, 'test')
+
+SELECT * FROM table WHERE Contains(Column, "test") > 0;
+SELECT * FROM table WHERE Contains(Column, '"*test*"') > 0;

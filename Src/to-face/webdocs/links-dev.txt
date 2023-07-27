@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=oFCdeMOV9ns
+https://www.youtube.com/watch?v=qRVflVQHa1A
+
+https://www.youtube.com/user/BUROS1ST/videos
+https://www.youtube.com/channel/UCRXcryyD7dzNQzd0Zkbj3ug/videos
+
+https://www.youtube.com/feeds/videos.xml?user=BUROS1ST
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRXcryyD7dzNQzd0Zkbj3ug
+
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=BUROS1ST&key={YOUR_API_KEY}
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=UCRXcryyD7dzNQzd0Zkbj3ug&key={YOUR_API_KEY}
+
+

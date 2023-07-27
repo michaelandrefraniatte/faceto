@@ -1,0 +1,13 @@
+LIMIT 150 or LIMIT 0,150 : first 150 rows
+LIMIT 150,150 : next 150 rows
+LIMIT 300,150 : next 150 rows
+and so on
+a = 1. LIMIT (a-1)*150,150. 
+
+SELECT *
+FROM table
+LIMIT 10 OFFSET 5
+
+SELECT *
+FROM table
+LIMIT 5, 10;

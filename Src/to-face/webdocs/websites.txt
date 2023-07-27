@@ -1,0 +1,8 @@
+https://www.syncfusion.com/blogs/post/build-crud-application-with-asp-net-core-entity-framework-visual-studio-2019.aspx
+https://docs.microsoft.com/fr-fr/visualstudio/get-started/csharp/tutorial-aspnet-core-ef-step-05?view=vs-2019
+https://docs.microsoft.com/fr-fr/visualstudio/get-started/csharp/tutorial-aspnet-core-ef-step-02?view=vs-2019
+https://docs.microsoft.com/fr-fr/visualstudio/get-started/csharp/tutorial-aspnet-core-ef-step-03?view=vs-2019
+https://www.w3schools.com/asp/webpages_database.asp
+https://docs.microsoft.com/fr-fr/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-3.1&tabs=visual-studio
+https://stackoverflow.com/questions/45401543/implement-idbconnection-in-net-core
+https://docs.microsoft.com/fr-fr/dotnet/api/system.data.idbconnection?view=netcore-3.1

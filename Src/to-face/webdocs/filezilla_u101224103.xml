@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 platform="windows" version="3.17.0.1">
+   <Servers>
+      <Server>
+         <Host>access831485192.webspace-data.io</Host>
+         <Port>990</Port>
+         <Protocol>3</Protocol>
+         <Type>0</Type>
+         <User>u101224103</User>
+         <Logontype>2</Logontype>
+         <TimezoneOffset>0</TimezoneOffset>
+         <PasvMode>MODE_DEFAULT</PasvMode>
+         <MaximumMultipleConnections>0</MaximumMultipleConnections>
+         <EncodingType>Auto</EncodingType>
+         <BypassProxy>0</BypassProxy>
+         <Name>access831485192.webspace-data.io</Name>
+         <Comments>Utilisateur principal du FTPS</Comments>
+         <LocalDir/>
+         <RemoteDir/>
+         <SyncBrowsing>0</SyncBrowsing>
+         <DirectoryComparison>0</DirectoryComparison>
+      </Server>
+   </Servers>
+</FileZilla3>

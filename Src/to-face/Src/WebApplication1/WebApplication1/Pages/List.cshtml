@@ -1,0 +1,24 @@
+﻿@page
+@model WebApplication1.Pages.ListModel
+<html lang="fr">
+<body>
+    <div id="sendsearch">
+        <a href="~/"><img id="imglist" src="Images\Web_22320.png" width="24" /></a>
+        <input id='search' placeholder="video title or video author" />
+        <button id="searchbutton" onclick="SearchBtn_Click()">Click here for search comments</button>
+    </div>
+    <div id="listlinks">
+        <table id="links">
+        </table>
+        <div id="paginationlinks">
+            <div id="listpagebefore" onclick="PageBeforeBtn_Click()">< </div>
+            <div id="listpagenumber">0 - 10</div>
+            <div id="listpageafter" onclick="PageAfterBtn_Click()"> ></div>
+        </div>
+    </div>
+    <br />
+    <div id="footer">©2020</div>
+</body>
+</html>
+<script type="text/javascript" src="Src/listjs.js" charset="ISO-8859-1"></script>
+

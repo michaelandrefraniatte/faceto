@@ -1,0 +1,2 @@
+https://dotnet.microsoft.com/apps/aspnet/hosting
+https://azure.microsoft.com/fr-fr/services/app-service/web/

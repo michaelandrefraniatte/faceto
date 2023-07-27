@@ -1,0 +1,324 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: white;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #000;
+}
+
+h1, p, b, span {
+    margin: 0;
+    color: white;
+}
+
+p, span {
+    font-size: calc(0.62vw + 0.62vh + 0.31vmin);
+}
+
+.rainbow-text {
+    background-image: repeating-linear-gradient(45deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3);
+    text-align: center;
+    background-size: 50% 50%;
+    font-size: calc(2vw + 2vh + 1vmin);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 8s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: -100vh 0%
+    }
+
+    100% {
+        background-position: 100vh 0%
+    }
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #0063ff;
+}
+
+.title {
+    background-color: #141e30;
+    color: white;
+    height: 12vh;
+    margin: 0;
+    padding-top: 0vh;
+    line-height: 6vh;
+}
+
+.intro {
+    background-color: rgba(63,81,181, 0.5);
+    color: white;
+    height: 6.5vh;
+    border-top: 0.05vh solid white;
+    border-bottom: 0.05vh solid white;
+    line-height: 6.5vh;
+}
+
+.images {
+    background-color: #141e30;
+    color: white;
+    height: 70vh;
+    margin: 0;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-01 {
+    width: auto;
+    height: 50vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img-02 {
+    width: auto;
+    height: 25vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img-03 {
+    width: auto;
+    height: 25vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.big-img {
+    float: left;
+    padding-top: 8vh;
+    padding-right: 2vh;
+}
+
+.small-img {
+    float: left;
+    padding-top: 8vh;
+    padding-left: 2vh;
+}
+
+.explications {
+    background-color: rgba(63,81,181, 0.5);
+    color: white;
+    height: 11.25vh;
+    line-height: 3.75vh;
+}
+
+.center {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#img-01:hover {
+    opacity: 0.7;
+}
+
+#img-02:hover {
+    opacity: 0.7;
+}
+
+#img-03:hover {
+    opacity: 0.7;
+}
+/* The Modal (background) */
+.modal01 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 75px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* The Modal (background) */
+.modal02 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 75px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* The Modal (background) */
+.modal03 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 75px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: auto;
+}
+/* Caption of Modal Image */
+#caption01 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 50px;
+}
+/* Caption of Modal Image */
+#caption02 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 50px;
+}
+/* Caption of Modal Image */
+#caption03 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 50px;
+}
+/* Add Animation */
+.modal-content, #caption01, #caption02, #caption03 {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    font-size: calc(0.62vw + 0.62vh + 0.31vmin);
+}
+
+@-webkit-keyframes zoom {
+        from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+#close01, #close02, #close03 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#close01:hover,
+#close01:focus, 
+#close02:hover,
+#close02:focus, 
+#close03:hover,
+#close03:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-rolling {
+    position: relative;
+    animation: rolling 20s linear infinite;
+    animation-delay: -10s;
+    left: -200vh;
+    float: left;
+    margin: 0;
+    height: 0vh;
+}
+
+.text-rollingbis {
+    position: relative;
+    animation: rollingbis 20s linear infinite;
+    animation-delay: 0s;
+    left: 200vh;
+    float: left;
+    margin: 0;
+    height: 0vh;
+}
+
+@keyframes rolling {
+    0% {
+        left: 200vh;
+    }
+
+    100% {
+        left: -200vh;
+    }
+}
+
+@keyframes rollingbis {
+    0% {
+        left: 200vh;
+    }
+
+    100% {
+        left: -200vh;
+    }
+}

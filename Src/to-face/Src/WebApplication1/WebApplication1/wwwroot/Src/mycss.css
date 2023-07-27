@@ -1,0 +1,247 @@
+
+    body {
+        font-size: 1rem;
+        background-color: rgb(31, 31, 31);
+        color: rgb(210, 210, 210);
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #link {
+        width: 30rem;
+        height: 1.5rem;
+        box-sizing: border-box;
+        border: 0.025rem solid #ccc;
+        border-radius: 0.05rem;
+        background-color: #f8f8f8;
+        margin-left: 0.1rem;
+        overflow: hidden;
+        resize: none;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #linkbutton {
+        height: 1.5rem;
+        background-color: grey;
+        box-sizing: border-box;
+        border: 0.025rem solid #ccc;
+        border-radius: 0.05rem;
+        color: white;
+        margin-left: 0.1rem;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #imgindex {
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    #imglist {
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    iframe {
+        width: 50rem;
+        height: 37.5rem;
+        margin-right: 0.2rem;
+        overflow: hidden;
+        float: left;
+    }
+
+    #comments {
+        display: block;
+        width: 32rem;
+        height: 25rem;
+        overflow-y: scroll;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
+
+    #name {
+        width: 6.875rem;
+        height: 1.5rem;
+        box-sizing: border-box;
+        border: 0.025rem solid #ccc;
+        border-radius: 0.05rem;
+        background-color: #f8f8f8;
+        overflow: hidden;
+        resize: none;
+        margin-bottom: 0.2rem;
+        float: left;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    #com {
+        width: 32rem;
+        height: 6.25rem;
+        box-sizing: border-box;
+        border: 0.025rem solid #ccc;
+        border-radius: 0.05rem;
+        background-color: #f8f8f8;
+        margin-bottom: 0.2rem;
+    }
+
+    #timecounter {
+        height: 1.5rem;
+        background-color: grey;
+        box-sizing: border-box;
+        border: 0.025rem solid #ccc;
+        border-radius: 0.05rem;
+        color: white;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    #comCharNum {
+        text-align: right;
+        vertical-align: middle;
+        float: right;
+    }
+
+    #nameCharNum {
+        text-align: left;
+        vertical-align: middle;
+        float: left;
+    }
+
+    #combutton {
+        width: 32rem;
+    }
+
+    #liste {
+        margin-left: 0.2rem;
+        float: left;
+    }
+
+    #sendlink {
+        width: 84rem;
+        text-align: center;
+        margin-top: 0.4rem;
+    }
+
+    #postcom {
+        width: 84rem;
+        float: left;
+    }
+
+    #footer {
+        width: 84rem;
+        font-size: 0.65rem;
+        text-align: center;
+        vertical-align: middle;
+        float: left;
+    }
+
+    #pagination {
+        width: 32rem;
+        text-align: center;
+        margin-bottom: 0.4rem;
+    }
+
+    #pageafter, #pagebefore, #comnumber {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    u {
+        text-decoration: underline;
+    }
+
+    b {
+        opacity: 0.3;
+    }
+
+    #links {
+        width: 84rem;
+        height: 35rem;
+        text-align: center;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
+
+    #paginationlinks {
+        width: 84rem;
+        text-align: center;
+        margin-bottom: 0.4rem;
+    }
+
+    #listlinks {
+        display: inline-block;
+        width: 84rem;
+        height: 39rem;
+    }
+
+    #listpageafter, #listpagebefore, #listpagenumber {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    hr {
+        width: 30rem;
+        margin: auto;
+        text-align: center;
+        border: 0.05rem solid white;
+    }
+
+    #sendsearch {
+        width: 84rem;
+        text-align: center;
+        margin-top: 0.4rem;
+    }
+
+    #search {
+        width: 30rem;
+        height: 1.5rem;
+        box-sizing: border-box;
+        border: 0.025rem solid #ccc;
+        border-radius: 0.05rem;
+        background-color: #f8f8f8;
+        margin-left: 0.1rem;
+        overflow: hidden;
+        resize: none;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #searchbutton {
+        height: 1.5rem;
+        background-color: grey;
+        box-sizing: border-box;
+        border: 0.025rem solid #ccc;
+        border-radius: 0.05rem;
+        color: white;
+        margin-left: 0.1rem;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #cutfilm {
+        float: left;
+    }
+
+    #channelcontent {
+        width: 84rem;
+        text-align: center;
+        vertical-align: middle;
+        float: left;
+    }
+
+    #imgchannelcontent {
+        width: 24px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #sendchannelcontent {
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }

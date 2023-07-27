@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+<html lang="fr">
+<body>
+    <div id="sendlink">
+        <div onclick="CutFilm()"><img id="cutfilm" src="Images\cut_film.png" width="28" height="24"/></div>
+        <a href="~/List"><img id="imgindex" src="Images\Web_22320.png" width="24" /></a>
+        <input id='link' placeholder="https://www.youtube.com/watch?v=123abc" />
+        <button id="linkbutton" onclick="GreetingsBtn_Click()">Click here for greetings</button>
+    </div>
+    <div id="postcom">
+        <iframe id="video" src="Images\youtube.png" frameborder="0" allowfullscreen scrolling="no" onerror="VideoOnError()"></iframe>
+        <div id="liste">
+            <table id="comments">
+            </table>
+            <div id="pagination">
+                <div id="pagebefore" onclick="PageBeforeBtn_Click()">< </div>
+                <div id="comnumber">0 - 30</div>
+                <div id="pageafter" onclick="PageAfterBtn_Click()"> ></div>
+            </div>
+            <div>
+                <input id='name' placeholder="Anonymous1" onkeyup="nameCountChar(this)" onmouseout="nameCountChar(this)" />
+                <div id="nameCharNum">10</div>
+            </div>
+            <div id="combutton">
+                <textarea id='com' placeholder="coucou, c'est moi !" onkeyup="comCountChar(this)" onmouseout="comCountChar(this)"></textarea>
+                <button id="timecounter" onclick="GreetingBtn_Click()">Click here for greeting... 60 s</button>
+                <div id="comCharNum">500</div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="footer">©2020</div>
+</body>
+</html>
+<script type="text/javascript" src="Src/myjs.js" charset="ISO-8859-1"></script>

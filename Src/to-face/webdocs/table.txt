@@ -1,0 +1,8 @@
+SELECT Link into #temp FROM Users ORDER BY DateCreated asc offset 0 rows fetch next 30 rows only 
+
+SELECT Link FROM #temp GROUP BY Link
+
+DROP table #temp
+
+SELECT Link FROM (SELECT Link FROM Users ORDER BY DateCreated asc offset 0 rows fetch next 30 rows only) as temp GROUP BY Link
+

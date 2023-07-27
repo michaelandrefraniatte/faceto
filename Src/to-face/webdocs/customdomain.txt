@@ -1,0 +1,1 @@
+https://docs.microsoft.com/fr-fr/azure/app-service/app-service-web-tutorial-custom-domain

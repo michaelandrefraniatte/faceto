@@ -1,0 +1,49 @@
+
+<head>
+    <title>Exprimer vous sur des videos librement anonymement publiquement</title>
+    <meta name="description" content="Ajoutez un lien d'une video qui s'affiche, et soyez libre d'ajouter vos critiques anonymes publiques." />
+    <meta name="keywords" content="développement personnel, expression libre, critique videoludique" />
+    <meta name="robots" content="index" />
+    <meta charset="utf-8">
+</head>
+
+https://www.google.com/webmasters/tools/submit-url
+
+http://www.robotstxt.org/robotstxt.html
+
+robots.txt
+Sitemap: https://from-mars.azurewebsites.net/emplacement_sitemap.xml
+User-agent: *
+Disallow:
+
+emplacement_sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://from-mars.azurewebsites.net/</loc>
+    <lastmod>2020-05-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+</urlset>
+
+https://www.xml-sitemaps.com/
+
+https://search.google.com/search-console/welcome?action=inspect
+<meta name="google-site-verification" content="xLX8nJth_GNfqFNodGC2R9yqMez1gBX1ACt5WYAIcRw" />
+valider après ajout dans head
+https://search.google.com/search-console?resource_id=https%3A%2F%2Ffrom-mars.azurewebsites.net%2F
+
+https://www.bing.com/webmaster/home/mysites
+"Déjà vérifié sur Google Search Console?"
+
+
+
+
+
+
+
+
+
+
+

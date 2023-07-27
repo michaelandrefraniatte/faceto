@@ -1,0 +1,48 @@
+CREATE TABLE Users(
+ID int IDENTITY(1,1) NOT NULL,
+Name varchar(50) NOT NULL,
+DateCreated datetime NOT NULL CONSTRAINT DF_Status_DateCreated DEFAULT (getdate())
+)
+
+insert into Users
+(name, DateCreated)
+VALUES ('thisisme', getdate())
+
+ALTER TABLE Users ADD Link varchar(255), Comment varchar(max)
+
+delete Users where id = 1002
+
+CREATE TABLE Users(
+ID int IDENTITY(1,1) NOT NULL,
+Name varchar(50) NOT NULL,
+DateCreated datetime NOT NULL CONSTRAINT DF_Status_DateCreated DEFAULT (getdate()),
+Link varchar(255), 
+Comment varchar(max)
+)
+
+ALTER TABLE Users ADD Channel varchar(255)
+
+CREATE TABLE Users(
+ID int IDENTITY(1,1) NOT NULL,
+Name varchar(50) NOT NULL,
+DateCreated datetime NOT NULL CONSTRAINT DF_Status_DateCreated DEFAULT (getdate()),
+Link varchar(255), 
+Comment varchar(500),
+Channel varchar(255)
+)
+
+ALTER TABLE Users ADD Title varchar(255)
+ALTER TABLE Users ADD [User] varchar(255)
+ALTER TABLE Users ADD [Type] varchar(255)
+
+CREATE TABLE Users(
+ID int IDENTITY(1,1) NOT NULL,
+Name varchar(255) NOT NULL,
+DateCreated datetime NOT NULL CONSTRAINT DF_Status_DateCreated DEFAULT (getdate()),
+Link varchar(255), 
+Comment varchar(max),
+Channel varchar(255),
+Title varchar(255),
+[User] varchar(255),
+[Type] varchar(255)
+)

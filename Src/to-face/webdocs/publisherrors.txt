@@ -1,0 +1,13 @@
+web.config
+<modules runAllManagedModulesForAllRequests="true" />
+
+ajouter 'Microsoft.CodeAnalysis.CSharp.dll' au site Web
+
+Activer SSL depuis dommaines et SSL au site to-face.eu (commander)
+
+Mettre à jour les packages nuggets
+
+Essayer différentes frameworks autre que 3.1
+
+Nettoyer la solution
+

@@ -1,0 +1,11 @@
+Databases structures :
+- videoid : rand : videotitle, msg, author, date
+- list : videoid : videotitle
+
+Videos :
+https://www.youtube.com/watch?v=qrYuLXaTKvw
+https://www.youtube.com/watch?v=ywjuo42TfKM
+https://www.youtube.com/watch?v=yzKvIXUsyDY
+https://www.youtube.com/watch?v=quD0uEchd8I
+
+

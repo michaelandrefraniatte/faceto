@@ -1,0 +1,9 @@
+dossier : /to-face
+Serveur/Host: ftps://access831485192.webspace-data.io:990
+Chemin d'accés du site : to-face
+URL : https://to-face.eu:443/
+mode : passive
+Port: 990
+Protocole: FTPS
+Nom d'utilisateur: u101224103
+Mot de passe: ******

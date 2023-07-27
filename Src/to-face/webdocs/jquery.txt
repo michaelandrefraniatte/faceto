@@ -1,0 +1,33 @@
+
+        @{
+            System.Data.IDataReader selectQueryString = IndexModel.getComments((string)str);
+        }
+        $("#comments").html(
+            "@while (selectQueryString.Read()){<tr><td>@selectQueryString.GetDateTime(2)</td><td>@selectQueryString.GetString(1)</td><td>@selectQueryString.GetString(4)</td></tr>}"
+        );
+
+        public static System.Data.IDataReader getComments(string str)
+        {
+            System.Data.IDataReader selectQueryString;
+            System.Data.IDbConnection connection;
+            connection = new Microsoft.Data.SqlClient.SqlConnection(@"Server=(localdb)\MSSQLLocalDB;Database=webapplication1db;");
+            connection.Open();
+            System.Data.ConnectionState originalState = connection.State;
+            if (originalState != System.Data.ConnectionState.Open)
+                connection.Open();
+            try
+            {
+                System.Data.IDbCommand command = connection.CreateCommand();
+                //"SELECT * FROM Users where Link=" + str + " ORDER BY DateCreated asc"
+                string rqst = "SELECT * FROM Users where Link ='" + str + "' ORDER BY DateCreated asc";
+                command.CommandText = rqst;
+                selectQueryString = command.ExecuteReader();
+            }
+            finally
+            {
+                // Close the connection if that's how we got it
+                if (originalState == System.Data.ConnectionState.Closed)
+                    connection.Close();
+            }
+            return selectQueryString;
+        }

@@ -1,0 +1,4 @@
+C:\Users\michael\Documents\My Web Sites\WebApplication1\WebApplication1\obj\Release\netcoreapp2.0\WebApplication1.csprojAssemblyReference.cache
+C:\Users\michael\Documents\My Web Sites\WebApplication1\WebApplication1\obj\Release\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\michael\Documents\My Web Sites\WebApplication1\WebApplication1\obj\Release\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+C:\Users\michael\Documents\My Web Sites\WebApplication1\WebApplication1\obj\Release\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
