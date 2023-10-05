@@ -1,3 +1,1 @@
-﻿https://michaelandrefraniatte.github.io/faceto  
-  
-https://github.com/michaelandrefraniatte  
+﻿https://github.com/michaelandrefraniatte
